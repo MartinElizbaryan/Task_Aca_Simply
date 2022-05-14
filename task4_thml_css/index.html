@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper_header">
+			<div class="d-flex justify-content-between flex-wrap">
+				<div class="wrapper_header-logo col">
+					<h2>Licenses</h2>
+				</div>
+				<div class="wrapper_header-collapse col justify-content-end">
+					<label class="btn btn-blue collapse-btn" for="collapse">Open</label>
+				</div>
+				<input type="checkbox" id="collapse" hidden>
+				<div class="wrapper_header-pricing d-flex align-items-center justify-content-end col">
+					<a href="#">
+						<div class="wrapper_header-pricing_item free active">
+							<span>Free</span>
+						</div>
+					</a>
+					<a href="#">
+						<div class="wrapper_header-pricing_item pro">
+							<span>Pro</span>
+						</div>
+					</a>
+					<a href="#">
+						<div class="wrapper_header-pricing_item vip">
+							<span>Vip</span>
+						</div>
+					</a>
+					<a href="#" class="btn btn-blue">Upgrade Now</a>
+				</div>
+			</div>
+			<div class="d-flex mt-3">
+				<div class="col col-100 d-flex justify-content-between">
+					<ul class="d-flex w-100 justify-content-between tabs">
+						<li><a href="#" class="active">Subscription</a></li>
+						<li><a href="#">Outright</a></li>
+						<li><a href="#">Offline Activation</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper_main mt-3">
+			<h4>Systems</h4>
+			<div class="responsive-table">
+				<div class="table">
+				<input type="checkbox" id="table-collapse" hidden>
+					<div class="collapsed-row">
+						<div class="row">
+							<div class="col-2">
+								<span>System Name</span>
+							</div>
+							<div class="col-2 text-end">
+								<span>ID</span>
+							</div>
+							<div class="col-2 text-end">
+								<span>Created date</span>
+							</div>
+							<div class="col-2 text-end">
+								<span>Active Licenses</span>
+							</div>
+						</div>
+						<div class="row mt-1 bg-dark p-1">
+							<div class="col-auto d-flex align-items-center">
+								<p>James-Main-Mackbook</p>
+							</div>
+							<div class="col-auto d-flex align-items-center">
+								<p>91520</p>
+							</div>
+							<div class="col-auto d-flex align-items-center">
+								<p>01 Jan 2019</p>
+							</div>
+							<div class="col-auto d-flex align-items-center justify-content-end">
+								<p>2</p>
+							</div>
+							<div class="col-auto text-end">
+								<a href="#" class="btn btn-success">Add License</a>
+								<a href="#" class="btn btn-danger">Remove</a>
+							</div>
+						</div>
+						<div class="subRow mt-1">
+							<div class="row headRow">
+								<div class="col-2">
+									<span>Licenses</span>
+								</div>
+								<div class="col-2 text-end">
+									<span>Expires</span>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="mt-3">Add Systems</h4>
+			<div class="dragDrop">
+				<input type="file" hidden id="fileUpload">
+				<label for="fileUpload">
+					<div class="cube">
+						<div class="arrow"></div>
+					</div>
+					<p><span class="color-blue">Choose a file</span> to upload or drag it here</p>
+					<p>(jpg, png, max size 5mb)</p>
+				</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
